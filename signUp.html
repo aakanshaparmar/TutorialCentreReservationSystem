@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <meta charset="UTF-8" />
-    <title>Sign Up Page </title>
-
-     <script type="text/javascript" src="/src/signUp.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style/myStyle.css">
-  
-  </head>
-
-  <body id="signUpPageBody">
+<body id="signUpPageBody">
 
    
 
@@ -20,21 +9,25 @@
     </div>
 
     <div id="form">
-      <form>
 
         <h2> Are you a tutor or a student? </h2>
 
-         <input type="radio" name="role" value="tutor" onClick="showTutorSignUpForm()"> Tutor <br>
-         <input type="radio" name="role" value="student" onClick="showTutorSignUpForm()"> Student <br>
+        <button type="button" onclick="showTutorSignUpForm()">Tutor</button>
+        <button type="button" onclick="myFunction()">Student</button>
+
+
+    </div>
       
       </form>
     </div>
+
+    <div id="asd"> </div>
 
     <div ="footer">
         <a href = "signUp.html"> Not a Member? Click here to Sign Up ! </a>
     </div>
 
+    <script src="src/myScript.js"></script>
 
-    
-  </body>
+</body>
 </html>
