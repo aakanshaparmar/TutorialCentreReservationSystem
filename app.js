@@ -4,7 +4,7 @@ var path    = require("path");
 
 
 app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/react-0.14.8/index.html'));
+  res.sendFile(path.join(__dirname+'index.html'));
   //__dirname : It will resolve to your project folder.
   });
   
@@ -18,8 +18,5 @@ app.get('/',function(req,res){
   
       app.listen(80);
 
-      <script type="text/babel" src="src/helloworld.js"></script>
- 
-
-
+    
 console.log("Running at Port 3000");
