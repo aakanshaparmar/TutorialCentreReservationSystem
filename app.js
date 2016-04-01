@@ -4,19 +4,21 @@ var path    = require("path");
 
 
 app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/index.html'));
+  res.sendFile(path.join(__dirname+'/react-0.14.8/index.html'));
   //__dirname : It will resolve to your project folder.
   });
   
   app.get('/about',function(req,res){
-    res.sendFile(path.join(__dirname+'/about.html'));
+    res.sendFile(path.join(__dirname+'/react-0.14.8/about.html'));
     });
   
    app.get('/sitemap',function(req,res){
-      res.sendFile(path.join(__dirname+'/sitemap.html'));
+      res.sendFile(path.join(__dirname+'/react-0.14.8/sitemap.html'));
       });
   
       app.listen(80);
+
+      <script type="text/babel" src="src/helloworld.js"></script>
  
 
 
